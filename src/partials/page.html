@@ -1,0 +1,33 @@
+<main class="main__page js-page">
+    <h1 class="main__page--title">Las Margaritas de Lucía <i class="fa-solid fa-martini-glass-citrus"></i></h1>
+        <form class="main__page--form">
+            <input 
+            type="text" 
+            id="search"
+            placeholder="Introduce el nombre del cocktail"
+            name="search"
+            class="js-search-input main__page--search"
+            >
+            <button id="searchBtn" class="js-search-btn search__button">Buscar</button>
+            <button id="resetBtn" class="js-reset-btn search__button reset__button">Reset</button>
+        </form>
+    <p class="js-search-warning search__warning hidden"></p>
+
+    <div class="order__sections">
+        <section class="js-section-fav favdrinks__section">
+            <p class="js-show-fav-drinks drinks__title ">Tus favoritos</p>
+            <p class="js-delete-all-favs delete__all hidden"></p>
+            <ul class="js-fav-drinks-list favdrinks__section--list">
+                
+            </ul>
+        </section>
+
+        <section class="js-section drinks__section">
+            <p class="js-show-drinks drinks__title--drk">Nuestro jardín</p>
+            <ul class="js-drinks-list drinks__section--list">
+
+            </ul>
+        </section>
+    </div>
+
+</main>

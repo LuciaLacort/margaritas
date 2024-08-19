@@ -1,0 +1,21 @@
+.footer{
+    width: 100%;
+    position: sticky;
+    z-index: 100;
+    border-bottom: 1px solid grey;
+    background-color: #3ea8a2;
+    opacity: .6;
+    text-align: center;
+    color:  #e8e5de;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    font-family: "Space Grotesk", sans-serif;
+    & a{
+        text-decoration: none;
+        color:  #e8e5de;
+        &:hover{
+            color:#ee3f82;
+        }
+
+    }
+}

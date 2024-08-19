@@ -1,0 +1,16 @@
+.header{
+    width: 10rem;
+    height: 4rem;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid grey;
+    background-color: #3ea8a2;
+    opacity: .6;
+    text-align: center;
+    padding-top: 1.5rem;
+    &__link{
+        text-decoration: none;
+    color:#ee3f82;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}

@@ -1,0 +1,251 @@
+
+body{
+    width: 100%;
+}
+.main__page{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/planta.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 4rem;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    @media (min-width:768px){
+        width: 100%;
+     }
+    &--title{
+    color:#e8e5de;
+    font-size: 3rem;
+    padding-top: 6rem;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+    font-family: "Space Grotesk", sans-serif;
+    -webkit-text-stroke: 2px black;
+    @media (min-width:768px){
+        font-size: 5rem;
+        padding-top: 10rem;
+     }
+    }
+    &--form{
+        padding: 0 3rem;
+        gap:1.5rem;
+        font-size: 2rem;
+        @media (min-width:768px){
+            padding-top: 0 3rem;
+         }
+    }
+    &--search{
+        height: 3rem;
+        width: 17rem;
+        margin-bottom: 1.5rem;
+        border: 2px solid#ee3f82;
+        border-radius: 1rem;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+
+        @media (min-width:768px){
+           width: 25rem;
+           height: 4rem;
+        }
+        &::placeholder{
+            font-size: 1rem;
+            padding-left: 1rem;
+        }
+    }
+}
+
+.search__button{
+    width: 5rem;
+    height: 3rem;
+    margin-bottom:1rem;
+    margin-left: 1.8rem;
+    border: 2px solid #1c413f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 2%;
+    color: #e8e5de;
+    background-color: #3ea8a2;
+    font-weight: 700;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+
+    @media (min-width:768px){
+        margin-left: 3rem;
+        height: 4rem;
+    }
+}
+
+.reset__button{
+    width: 5rem;
+    height: 3rem;
+    margin-left: 2.6rem;
+    margin-bottom:1rem;
+    color:  #3ea8a2;
+    border: 2px solid #ee3f82;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 2%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+
+    @media (min-width:768px){
+        height: 4rem;
+    }
+}
+.search__warning{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    border: 1px solid #523242;
+    border-radius: 2%;
+    background-color:rgb(62,168,162);
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+    opacity: 0.7;
+
+}
+.order__sections{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    width: 100%;
+    padding: 0 1.5rem;
+    @media (min-width: 1024px){
+        grid-template-columns: 1fr 2fr;
+    }
+
+}
+.drinks__section{
+    max-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1rem;
+    gap: 1.5rem;
+    border: 3px solid #523242;
+    padding: 1rem;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9); 
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    &--list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    @media (min-width: 768px){
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    @media (min-width: 1024px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    @media (min-width: 1200px){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    }
+    &--item{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+   
+    
+}
+.drinks__title{
+    font-size: 1rem;
+    font-weight: 700;
+    color:  #3ea8a2;
+    border-bottom: 1px solid #523242;
+    padding-bottom: 1rem;
+    @media (min-width: 768px){
+        font-size: 2rem;
+    }
+}
+.drinks__title--drk{
+    font-size: 1rem;
+    font-weight: 700;
+    color:   #e8e5de;
+    border-bottom: 1px solid #523242;
+    padding-bottom: 1rem;
+    @media (min-width: 768px){
+        font-size: 2rem;
+    }
+
+}
+
+.drink__img{
+    width: 4rem;
+    border: 2px solid #523242;
+    border-radius: 1rem;
+    @media (min-width: 768px){
+        width: 9rem;
+    }
+    @media (min-width: 1024px){
+        width: 11rem;
+    }
+    @media (min-width: 1200px){
+        width: 13rem;
+    }
+}
+
+.drink__name{
+    padding-top: 1rem;
+    font-size: 1rem;
+    width: 6rem;
+}
+
+.delete__all{
+    font-size: 1rem;
+    color: #ee3f82;
+    margin-top: 1.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.fa-circle-xmark{
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+.drink__delete{
+    font-size: 2rem;
+    color:#ee3f82;
+    width: 2rem;
+}
+.favdrinks__section{
+    max-height: 75vh;
+    border: 3px solid #523242;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+    border-radius: 1rem;
+}
+
+.favdrinks__section--list{
+    list-style: none;
+    gap: 1.5rem;
+}
+.fav__drink{
+    background-color: lightgoldenrodyellow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ee3f82;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+    border-radius: 1rem;
+}
+.hidden{
+    display: none;
+}
+
+
+
