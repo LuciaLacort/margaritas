@@ -31,7 +31,7 @@ const inputFilesList = {
 }
 
 export default defineConfig({
-  base: "./",
+  base: "/margaritas/",
   root: "src",
   publicDir: "../public",
   build: {
