@@ -1,24 +1,34 @@
-# Ejercicio de evaluación del módulo 2, JavaScript.
-## Por Lucía Lacort
 
-## Guía de inicio rápido
-
-¡Bienvenidos a "Las margaritas de Lucía"!
-
-Esta es la web de una cocktelería que no existe (todavía) cuya especialidad son los margaritas.
-
-Es una web dinámica en la que lo primero que se encuentra el usuario es la carta de margaritas, ya que son la especialidad de la casa, y si ya la tuviese hecha, la lista de los cocktails que marcó como favoritos en su última visita.
-
-Además de las margaritas, se hacen otros muchos cocktails, por lo que el usuario puede buscar dentro de la extensa carta, por ejemplo, "mojito" y ver los mojitos que se ofrecen.
-
-Para no olvidar qué cocktail le había gustado, los puede ir marcando como favoritos: cambiarán su apariencia en la lista original y aparecerán en una nueva lista de favoritos a la izquierda. 
-
-Esta lista se guardará en localStorage para que cada vez que nuestros usuarios entren o refresquen la página, sus favs sigan ahí. 
-
-Por supuesto, si dejan de ser sus favs, cada cocktail cuenta con una cruz que los elimina de la lista al pulsarla, una cruz que borra todos los favoritos y un botón de reset para limpiar el campo de búsqueda y hacer una nueva.
+# MARGARITAS BAR WEBSITE
 
 
+Welcome to "Lucía's Margaritas"!
+
+This is the website for a cocktail bar that doesn't exist (yet), specializing in margaritas.
+
+It's a dynamic site where the first thing users see is the margarita menu, as margaritas are the house specialty. If the user has previously created a list of their favorite cocktails during their last visit, that list will also be displayed.
+
+In addition to margaritas, many other cocktails are available, so users can search the extensive menu, for example, by typing "mojito" to see the mojitos on offer.
+
+To remember which cocktails they liked, users can mark them as favorites. These favorites will change their appearance in the original list and will appear in a new list of favorites on the left.
+
+This list will be saved in localStorage so that whenever our users visit or refresh the page, their favorites will still be there.
+
+Of course, if a cocktail is no longer a favorite, each one has a cross icon that removes it from the list when clicked, a cross icon that clears all favorites, and a reset button to clear the search field and start a new search.
+
+## 🛠 Tools
 
 
+[![My Skills](https://skillicons.dev/icons?i=js,html,sass,vite,git)](https://skillicons.dev)
+## 💻 Installation
 
+Clone the repository.
 
+Install:
+
+```bash
+  npm i
+  npm run dev
+```
+Check the project on your browser.
+    
